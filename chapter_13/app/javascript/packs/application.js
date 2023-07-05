@@ -10,6 +10,11 @@ import "channels";
 import "script.js";
 import "jquery";
 
+// import Swiper from "swiper/swiper-bundle.js"; //この行を追記
+// import "swiper/swiper-bundle.js"; //この行を追記
+import Swiper from "swiper";
+import "swiper/swiper-bundle.css"; //この行を追記
+
 Rails.start();
 Turbolinks.start();
 ActiveStorage.start();
